@@ -17,7 +17,7 @@ nrow(available.packages(repos = "http://cran.r-project.org"))
 #' ------exercicio 5
 install.packages("tidyverse")
 library(tidyverse)
-#' ------exercicio 66
+#' ------exercicio 6
 sequencia <- 1:60
 sample(x=sequencia, size=6)
 mega <- sample(x=sequencia, size=6, replace = FALSE)
@@ -47,4 +47,5 @@ df_amos10 <- df[sample(nrow(df),10),]
 ma_amos10 <- ma[df_amos10$id, ]
 #' ------exercicio 15
 dados_amos10 <- cbind(df_amos10, ma_amos10)
+
 
